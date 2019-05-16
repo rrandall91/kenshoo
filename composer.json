@@ -1,0 +1,28 @@
+{
+  "name": "rrandall91/kenshoo",
+  "description": "Kenshoo PHP Library",
+  "keywords": [
+    "kenshoo",
+    "api"
+  ],
+  "homepage": "https://github.com/rrandall91/kenshoo",
+  "license": "MIT",
+  "authors": [{
+    "name": "Rashaad R. Randall",
+    "email": "rrandall@poweredbyvivid.com",
+    "homepage": "https://github.com/rrandall91"
+  }],
+  "require": {
+    "php": ">= 5.4.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kenshoo\\": "src/"
+    }
+  }
+}
